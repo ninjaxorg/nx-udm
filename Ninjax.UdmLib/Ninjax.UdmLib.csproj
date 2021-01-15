@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <PackageVersion>0.0.1-alpha</PackageVersion>
+        <Title>Ninjax UDM Library</Title>
+        <Description>Unreliable Data Multicast library</Description>
+        <Copyright>Ziya Suzen</Copyright>
+        <PackageProjectUrl>https://ninjax.org</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ninjaxorg/nx-udm</RepositoryUrl>
+        <PackageLicenseUrl>https://github.com/ninjaxorg/nx-udm/blob/main/LICENSE</PackageLicenseUrl>
+    </PropertyGroup>
+
+</Project>

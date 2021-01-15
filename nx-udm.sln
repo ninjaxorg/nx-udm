@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ninjax.UdmLib", "Ninjax.UdmLib\Ninjax.UdmLib.csproj", "{AFC23F7E-159C-4C37-A01F-6834BEF30CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nx-udm-cli", "nx-udm-cli\nx-udm-cli.csproj", "{2C8BAC97-B5DA-49C4-B4A0-92DD588C6AEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC23F7E-159C-4C37-A01F-6834BEF30CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC23F7E-159C-4C37-A01F-6834BEF30CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC23F7E-159C-4C37-A01F-6834BEF30CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC23F7E-159C-4C37-A01F-6834BEF30CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8BAC97-B5DA-49C4-B4A0-92DD588C6AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8BAC97-B5DA-49C4-B4A0-92DD588C6AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8BAC97-B5DA-49C4-B4A0-92DD588C6AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8BAC97-B5DA-49C4-B4A0-92DD588C6AEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
