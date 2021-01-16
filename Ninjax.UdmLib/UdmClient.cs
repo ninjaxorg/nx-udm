@@ -13,8 +13,12 @@ namespace Ninjax.UdmLib
         public UdmClient(IPEndPoint endpoint, Action<byte[], IPEndPoint> receiver)
         {
             _udp = new UdpClient {ExclusiveAddressUse = false};
+            _udp.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
+            
             _udp.Client.Bind(new IPEndPoint(IPAddress.Any, endpoint.Port));
+            
             _udp.JoinMulticastGroup(endpoint.Address);
+            
             Task.Run(async delegate
             {
                 while (_alive)
